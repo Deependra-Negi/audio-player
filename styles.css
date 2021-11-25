@@ -2,5 +2,26 @@
     margin: 0%;
     padding: 0%;
     box-sizing: border-box;
-    /* background-color: rgb(211, 245, 234); */
+}
+
+body{
+    height: 100vh;
+    /* background: linear-gradient( #72cf91, rgb(118, 193, 223)); */
+}
+
+#canvas{
+    padding: 1rem;
+   /* border: 1px solid red;
+    width: 100vw; */
+}
+
+.controls{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+.controls button{
+    padding: 1rem;
+    border: 1px solid skyblue;
+    background-color: transparent;
 }

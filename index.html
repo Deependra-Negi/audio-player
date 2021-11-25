@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -7,9 +8,20 @@
     <title>Audio Player</title>
     <link rel="stylesheet" href="styles.css"/>
 </head>
+
 <body onload="loadCanvas()">
     <h1>Audio Player</h1>
     <canvas id=canvas></canvas>
+    <div class="controls">
+        <button>next</button>
+        <button>play</button>
+        <button>volume</button>
+    </div>
+    <audio controls>
+        <source src="./media/lofi.mp3" type="audio/mp3">
+    </audio>
 </body>
+
 <script src="./script.js"></script>
+
 </html>
