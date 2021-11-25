@@ -26,11 +26,11 @@ body{
     background-color: transparent;
     cursor: pointer;
 }
-.controls>button:nth-child(2){
+#play, #pause{
     padding: 1.5rem 2rem;
     margin-top: -5px;
 }
-#vol{
+#volume{
     background: url(./media/icons/volume.png) no-repeat;
     background-position: center;
     background-size: 20px;
