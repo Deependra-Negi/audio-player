@@ -3,25 +3,52 @@
     padding: 0%;
     box-sizing: border-box;
 }
-
 body{
     height: 100vh;
     /* background: linear-gradient( #72cf91, rgb(118, 193, 223)); */
 }
-
 #canvas{
     padding: 1rem;
-   /* border: 1px solid red;
-    width: 100vw; */
 }
-
 .controls{
+    margin-top: 5rem;
     width: 100%;
     display: flex;
     justify-content: center;
 }
-.controls button{
+.controls>button{
+    margin: 3px;
     padding: 1rem;
-    border: 1px solid skyblue;
+    height: 30px;
+    min-width: 70px;
+    border: 1px solid #008D9A;
+    border-radius: 1rem;
     background-color: transparent;
+    cursor: pointer;
 }
+.controls>button:nth-child(2){
+    padding: 1.5rem 2rem;
+    margin-top: -5px;
+}
+#vol{
+    background: url(./media/icons/volume.png) no-repeat;
+    background-position: center;
+    background-size: 20px;
+}
+#play{
+    background: url(./media/icons/play-button.png) no-repeat;
+    background-position: center;
+    background-size: 30px;
+}
+#pause{
+    background: url(./media/icons/pause.png) no-repeat;
+    background-position: center;
+    background-size: 30px;
+    display: none;
+}
+#fast{
+    background: url(./media/icons/fast-forward.png) no-repeat;
+    background-position: center;
+    background-size: 20px;
+}
+

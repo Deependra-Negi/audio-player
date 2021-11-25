@@ -13,13 +13,11 @@
     <h1>Audio Player</h1>
     <canvas id=canvas></canvas>
     <div class="controls">
-        <button>next</button>
-        <button>play</button>
-        <button>volume</button>
+        <button id="vol"></button>
+        <button id="play" onclick="play()"></button>
+        <button id="pause" onclick="pause()"></button>
+        <button id="fast"></button>
     </div>
-    <audio controls>
-        <source src="./media/lofi.mp3" type="audio/mp3">
-    </audio>
 </body>
 
 <script src="./script.js"></script>
