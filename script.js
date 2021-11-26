@@ -70,14 +70,3 @@ function handleVolume() {
 function fastForward() {
     audio.currentTime = audio.currentTime + 10;
 }
-
-
-//008D9A
-
-//attribute
-//icons - https://www.flaticon.com/
-//play - By Webalys
-//pause - By Kiranshastry
-//vol - By Dave Gandy
-// fast -  By inkubators
-//mute - freepik
